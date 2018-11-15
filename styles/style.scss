@@ -1,0 +1,62 @@
+@import './partials/typography';
+@import './partials/layouts';
+@import './partials/variables';
+@import './partials/footer';
+@import './partials/header';
+
+// Reset
+body{
+    margin: 0;
+}
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0;
+}
+
+.card{
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,.0);
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+}
+.card a{
+    color:#fff;
+}
+.card:hover{
+    background:rgba(255,255,255,.9);
+    color: #666;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.94), 0 17px 50px 0 rgba(0, 0, 0, 0.89);
+
+    .card-icon{
+        color: rgb(1, 1, 158);
+    }
+    .btn-card{
+        background: rgb(1, 1, 158);
+        border:rgb(1, 1, 158);
+    }
+}
+.card-icon{
+    font-size: 48px;
+}
+.btn{
+    text-decoration: none;
+    background: #ccc;
+    padding: 20px;
+}
+.btn-card{
+    background: none;
+    border: 1px solid #fff;
+}
+// .card:hover .btn-card{
+//     background: #666;
+// }
+
+.content{
+    margin-top: 40px;
+}

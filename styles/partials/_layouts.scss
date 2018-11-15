@@ -1,0 +1,18 @@
+// Layout Styling
+.container-full-width{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.row-padded{
+    padding: 0 40px;
+}
+.row-fixed{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.content .row-fixed{
+    max-width: 75ch;
+    margin: 0 auto;
+}

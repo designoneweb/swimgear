@@ -1,0 +1,171 @@
+html {
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+.container-full-width {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.row-padded {
+  padding: 0 40px;
+}
+
+.row-fixed {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.content .row-fixed {
+  max-width: 75ch;
+  margin: 0 auto;
+}
+
+.home-header {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), color-stop(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.7))), url("/images/cover-for-swimgear.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("/images/cover-for-swimgear.jpg");
+  background-size: cover;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.branding a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.branding-text {
+  margin-left: 20px;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav ul a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.nav ul a:hover {
+  color: #666;
+}
+
+.nav ul li:hover {
+  background: #fff;
+}
+
+.home-header-text {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.quick-links {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0);
+  padding: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+}
+
+.card a {
+  color: #fff;
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.9);
+  color: #666;
+  -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.94), 0 17px 50px 0 rgba(0, 0, 0, 0.89);
+          box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.94), 0 17px 50px 0 rgba(0, 0, 0, 0.89);
+}
+
+.card:hover .card-icon {
+  color: #01019e;
+}
+
+.card:hover .btn-card {
+  background: #01019e;
+  border: #01019e;
+}
+
+.card-icon {
+  font-size: 48px;
+}
+
+.btn {
+  text-decoration: none;
+  background: #ccc;
+  padding: 20px;
+}
+
+.btn-card {
+  background: none;
+  border: 1px solid #fff;
+}
+
+.content {
+  margin-top: 40px;
+}
+/*# sourceMappingURL=style.css.map */

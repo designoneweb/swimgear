@@ -1,0 +1,51 @@
+// Header Styling
+.home-header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.2), rgba(0,0,0,.7)),url('/images/cover-for-swimgear.jpg');
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.branding a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+.branding-text{
+    margin-left: 20px;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav ul a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+
+    &:hover{
+        color: #666;
+    }
+}
+.nav ul li:hover{
+    background: #fff;
+}
+.home-header-text{
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    // text-shadow: 0 12px 15px rgba(0, 0, 0, 0.54);
+}
+.quick-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+}
